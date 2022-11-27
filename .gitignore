@@ -126,6 +126,12 @@ all.config
 # fetched Android config fragments
 kernel/configs/android-*.cfg
 
+
 # kernel builds
 *.zip
 out/
+
+#
+#Ignoring Android.bp link file
+#
+Android.bp
